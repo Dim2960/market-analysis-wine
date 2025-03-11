@@ -46,7 +46,7 @@ market-analysis-wine/
 │   ├── processed/               # Données nettoyées ou transformées
 │   └── raw/                     # Données brutes (ex: wine.zip, domaine_des_croix.csv)
 ├── notebooks/
-│   └── Dimitri_Lefebvre_Notebook_EDA.ipynb  # Notebook d'analyse exploratoire
+│   └── EDA.ipynb                # Notebook d'analyse exploratoire
 ├── outputs/
 │   └── reports/                 # Rapports finaux, présentations, documents livrables
 │       ├── pwBI/                # Rapport Power BI 
@@ -66,7 +66,7 @@ market-analysis-wine/
 5. **Recommandation de prix** : proposition basée sur l’analyse statistique (quartiles, déciles) et le positionnement marketing souhaité.
 6. **Présentation** : création d’un tableau de bord visuel et interactif, accessible et esthétique.
 
-🔗 **Accédez au tableau de bord Power BI** :  [![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-orange?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiYjA2NWNiNTktM2Q1YS00YWE4LWI5OGUtMTBlY2VkNTdmYjA3IiwidCI6IjQ0OTFmMGVlLWY1MDMtNDcyNi1hNWViLTFmMGM0ZGFjODJhOSJ9&pageName=0ddccbb621013b0fcf8d) 
+🔗 **Accédez au tableau de bord Power BI** :  [![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-orange?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiOTk3NGU5MTYtZjE5Ny00ZmYxLWIzYzUtNTRiZmQ1NGU0ZDliIiwidCI6IjQ0OTFmMGVlLWY1MDMtNDcyNi1hNWViLTFmMGM0ZGFjODJhOSJ9) 
 
 ---
 
@@ -81,7 +81,7 @@ market-analysis-wine/
 | ![python](data/external/icones/python-color.svg) Python | ![numpy](data/external/icones/numpy-color.svg) numpy | ![jupiter](data/external/icones/jupyter-color.svg) Jupiter Notebook |
 | | ![pandas](data/external/icones/pandas-color.svg) pandas | ![github](data/external/icones/github-color.svg) Github |
 | | ![matplotlib](data/external/icones/python-color.svg) matplotlib | ![vscode](data/external/icones/visualstudiocode-color.svg) VS code |
-| | ![seaborn](data/external/icones/python-color.svg) seaborn | ![Git](img_rdata/external/iconeseadme/scikitlearn-color.svg) Git  |
+| | ![seaborn](data/external/icones/python-color.svg) seaborn | ![Git](data/external/icones/scikitlearn-color.svg) Git  |
 | | ![skimpy](data/external/icones/python-color.svg) skimpy | |
 | | ![nltk](data/external/icones/python-color.svg) nltk | |
 
