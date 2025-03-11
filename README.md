@@ -1,7 +1,7 @@
 # Market Analysis - Domaine des Croix
 
 Bienvenue dans ce projet d’analyse de données pour le **Domaine des Croix**, un vignoble bourguignon souhaitant s’implanter sur le marché américain. L’objectif principal est de **définir le prix** de ses bouteilles de vin afin d’être compétitif tout en valorisant la qualité de son produit.
-**Ce projet est un sujet d’étude (business case) proposé dans le cadre d’un examen de certification Data Analyst.**
+**Ce projet est un sujet d’étude (business case) proposé dans le cadre de mon examen de certification Data Analyst.**
 
 ---
 
@@ -40,16 +40,17 @@ Deux sources de données principales ont été utilisées :
 market-analysis-wine/
 ├── data/
 │   ├── external/                # Données complémentaires
-    │   ├── font/                # Polices d’écriture 
-    │   └── img/                 # Images, logos, icônes
+│   │   ├── font/                # Polices d’écriture 
+│   │   ├── icones/              # icones pour le readme
+│   │   └── img/                 # Images, logos, icônes
 │   ├── processed/               # Données nettoyées ou transformées
 │   └── raw/                     # Données brutes (ex: wine.zip, domaine_des_croix.csv)
 ├── notebooks/
 │   └── Dimitri_Lefebvre_Notebook_EDA.ipynb  # Notebook d'analyse exploratoire
 ├── outputs/
 │   └── reports/                 # Rapports finaux, présentations, documents livrables
-        ├── pwBI/                # Rapport Power BI 
-        └── ptt/                 # Présentation de l'étude
+│       ├── pwBI/                # Rapport Power BI 
+│       └── ptt/                 # Présentation de l'étude
 ├── .gitignore                   
 └── README.md                    
 ```
@@ -64,6 +65,7 @@ market-analysis-wine/
 4. **Comparaison** : focus sur la Bourgogne et plus précisément sur les Pinot Noir du même millésime que le vin du client.
 5. **Recommandation de prix** : proposition basée sur l’analyse statistique (quartiles, déciles) et le positionnement marketing souhaité.
 6. **Présentation** : création d’un tableau de bord visuel et interactif, accessible et esthétique.
+
 🔗 **Accédez au tableau de bord Power BI** :  [![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-orange?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiYjA2NWNiNTktM2Q1YS00YWE4LWI5OGUtMTBlY2VkNTdmYjA3IiwidCI6IjQ0OTFmMGVlLWY1MDMtNDcyNi1hNWViLTFmMGM0ZGFjODJhOSJ9&pageName=0ddccbb621013b0fcf8d) 
 
 ---
@@ -76,13 +78,11 @@ market-analysis-wine/
 
 | Languages | Librairies python | Outils |
 |-----------|------------------|--------|
-| ![python](img_readme/python-color.svg) Python | ![numpy](img_readme/numpy-color.svg) numpy | ![jupiter](img_readme/jupyter-color.svg) Jupiter Notebook |
-| | ![pandas](img_readme/pandas-color.svg) pandas | ![github](img_readme/github-color.svg) Github |
-| | ![matplotlib](img_readme/python-color.svg) matplotlib | ![vscode](img_readme/visualstudiocode-color.svg) VS code |
-| | ![seaborn](img_readme/python-color.svg) seaborn |  |
-| | ![scikit-learn](img_readme/scikitlearn-color.svg) scitkit-learn | ![discord](img_readme/discord-color.svg) Discord |
-| | ![statistiks](img_readme/python-color.svg) statistiks | ![Git](img_readme/scikitlearn-color.svg) Git |
-| | ![skimpy](img_readme/python-color.svg) skimpy | |
-
+| ![python](data/external/icones/python-color.svg) Python | ![numpy](data/external/icones/numpy-color.svg) numpy | ![jupiter](data/external/icones/jupyter-color.svg) Jupiter Notebook |
+| | ![pandas](data/external/icones/pandas-color.svg) pandas | ![github](data/external/icones/github-color.svg) Github |
+| | ![matplotlib](data/external/icones/python-color.svg) matplotlib | ![vscode](data/external/icones/visualstudiocode-color.svg) VS code |
+| | ![seaborn](data/external/icones/python-color.svg) seaborn | ![Git](img_rdata/external/iconeseadme/scikitlearn-color.svg) Git  |
+| | ![skimpy](data/external/icones/python-color.svg) skimpy | |
+| | ![nltk](data/external/icones/python-color.svg) nltk | |
 
 ---
