@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# personnal
+data/raw/wine.csv
+data/external/img/*
+outputs/reports/ptt/*
+outputs/reports/pwBI/*
