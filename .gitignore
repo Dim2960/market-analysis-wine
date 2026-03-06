@@ -173,6 +173,6 @@ cython_debug/
 
 # personnal
 data/raw/wine.csv
-data/external/img/*
-outputs/reports/ptt/*
-outputs/reports/pwBI/*
+# data/external/img/*
+# outputs/reports/ptt/*
+# outputs/reports/pwBI/*
